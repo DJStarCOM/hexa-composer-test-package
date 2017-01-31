@@ -1,0 +1,24 @@
+{
+  "name": "djstarcom/hexa-composer-test-package",
+  "type": "library",
+  "version": "1.0.0",
+  "description": "Hexa test package for image download",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "homepage": "https://github.com/DJStarCOM/hexa-composer-test-package",
+  "authors": [
+    {
+      "name": "Stanislav Tsepeniuk",
+      "email": "s.tsepeniuk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-gd" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DJStarCOM\\HexaComposerTestPackage\\": "src/"
+    }
+  }
+}
